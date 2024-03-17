@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav{
+  overflow:hidden;
+  background: #333;
+  position: relative;
+}
+/* to hide menu item or link */
+
+.nav #nav_links{
+  display:none;
+}
+.nav a{
+  color: white;
+  padding:14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+.nav a.icon{
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.nav a:hover{
+  background-color: #ddd;
+  color: black;
+}
+.active{
+  background: #04AA6D;
+  color: white;
+}
